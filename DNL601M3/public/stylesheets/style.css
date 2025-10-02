@@ -1,0 +1,81 @@
+/********** Template CSS **********/
+:root {
+  --primary: #06A3DA;
+  --secondary: #F57E57;
+  --light: #EEF9FF;
+  --dark: #091E3E;
+}
+@font-face {
+  font-family:'ya_modern_pro_bold';
+  src:url('./fonts/ya_modern_pro_bold.ttf')
+}
+
+*{
+  font-family: 'ya_modern_pro_bold';
+} 
+
+h1,
+h2,
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+  font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+.navbg{
+  background: #0e606e;
+}
+
+#navbarCollapse > div > div > a,
+#navbarCollapse > div > a.nav-item.nav-link{
+ color: white;
+}
+
+
+#search{
+  border-radius: 30px;
+  height: 100%;
+  background: transparent;
+  border-color: #fff;
+  box-shadow: none;
+  padding-right: 6px;
+  font-size: 12px;
+}
+
+
+#search::placeholder{
+  color: white;
+}
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+
+
+input{
+  border: 3px solid green !important;
+}

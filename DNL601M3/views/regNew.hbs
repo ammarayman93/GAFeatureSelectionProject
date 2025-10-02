@@ -1,0 +1,51 @@
+<div class="container my-3">
+    <div class="row mt-5">
+        <div class="col-2"></div>
+        <div class="col-8 wow slideInUp" data-wow-delay="0.3s">
+            <form action="/regNew" method="post">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <h3 class="text-success"><i class="fas fa-user-plus me-1"></i> تسجيل جديد:</h3>
+                        
+                        <h4 class="text-info">{{message}}</h4>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="name" class="form-control   px-4" placeholder="اسم المستخدم"
+                            style="height: 55px;">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="email" class="form-control   px-4" placeholder="إيميل"
+                            style="height: 55px;">
+                    </div>
+                    
+                    <div class="col-6">
+                        <input type="text" name="phone" class="form-control   px-4" placeholder="الهاتف 1"
+                            style="height: 55px;">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="phone2" class="form-control   px-4" placeholder="الهاتف 2"
+                            style="height: 55px;">
+                    </div>
+                    <div class="col-6">
+                        <input type="password" name="password" class="form-control   px-4" placeholder="كلمة المرور"
+                            style="height: 55px;">
+                    </div>
+                <div class="col-12">
+                    
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="access" name="access">
+                        <label class="form-check-label" for="access">
+بإمكان المستخدم الوصول وقراءة الطلبات؟                        </label>
+                    </div>
+                    
+                </div>
+                    <div class="col-12">
+                        <button class="btn btn-success w-100 text-light py-3" type="submit">تسجيل<i class="fas fa-plus ms-2"></i> </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>

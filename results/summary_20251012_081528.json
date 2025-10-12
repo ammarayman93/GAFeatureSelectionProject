@@ -1,0 +1,9 @@
+{
+  "dataset": "breast_cancer",
+  "ga_best_score": 0.982425089271852,
+  "ga_n_selected": 13,
+  "kbest_score": 0.9455364073901567,
+  "kbest_n_selected": 10,
+  "rfe_score": 0.9543238627542306,
+  "rfe_n_selected": 10
+}
